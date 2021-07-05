@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>My quiz app</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <div class="start_btn" id="demo1">
+        <button>Start Quiz</button>
+    </div>
+    <div class="info_box" id="demo">
+        <div class="info_title">
+            <span>Please read the rules carefully
+            </span>
+        </div>
+        <div class="info_list">
+            <div class="info">1. User should start the quiz by clicking the Continue button</div>
+            <div class="info">2. User should be able to see a question with four possible answers</div>
+            <div class="info">3. user can navigate to the next question by clicking Next Button</div>
+            <div class="info">4. At the end of the quiz, the user should be able to see the result whether pass or fail
+                and time spent</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="Restart">continue</button>
+
+        </div>
+
+    </div>
+    <div class="quiz_box">
+        <header>
+            <div class="title">My Quiz Application</div>
+            <div class="time">
+                00:00:00
+            </div>
+
+        </header>
+
+        <section>
+            <div class="que_text">
+            </div>
+            <div class="option_list">
+
+            </div>
+
+
+
+        </section>
+        <footer>
+            <div class="total_ques">
+            </div>
+            <button class="next_button">Next Question</button>
+        </footer>
+    </div>
+
+    <div class="result_box">
+        <div class="complete_text">
+            <div class="pass">
+                you are completed the quiz!
+            </div>
+
+            <div class="timer">
+                00 </div>
+
+
+            <div class="score_text">
+                <span>
+                    <p> You got</p>
+                    <p> 0 </p>
+                    <p> out of
+                    <p> 10 questions</p>
+                </span>
+            </div>
+        </div>
+
+
+        <div class="buttons">
+            <button class="quit"> Quit quiz</button>
+        </div>
+    </div>
+
+
+    <script src="javascript/questions.js"></script>
+    <script src="javascript/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js"></script>
+
+
+</body>
+
+</html>
